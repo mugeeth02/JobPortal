@@ -9,13 +9,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="employeeService" />
         <module name="candidateService" />
-        <module name="security" />
         <module name="notificationService" />
         <module name="jobService" />
         <module name="eurekaServer" />
         <module name="interviewService" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="security" target="22" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
